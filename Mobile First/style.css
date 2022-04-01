@@ -496,6 +496,15 @@ main{
     top: 50%;
     background-image: url(./Assets/icons/rightsmallarrow.svg);
 }
+
+
+/* NEW SLICER */
+.new__card{
+    position: relative;
+    text-align: center;
+}
+/* FIN */
+
 footer{
     display: flex;
     width: 100%;
