@@ -5,3 +5,9 @@
     margin: 0 auto;
     justify-content: center;
 }
+
+.container{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}

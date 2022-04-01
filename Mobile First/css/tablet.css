@@ -5,3 +5,8 @@
     margin: 0 auto;
     justify-content: center;
 }
+
+.new__title,
+.new__price{
+        font-size: 500;
+    }

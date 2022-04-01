@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1600px)">
     <title>Reino Etereo</title>
@@ -115,158 +117,96 @@
                 <h2>Escoge el clan que mejor se adecúe a ti.</h2>
                 <p>Cada clan tiene sus diferentes habilidades</p>
             </div>
-            <section class="clanes-container--slider">
-                
-                <article class="clanes-container--card">
-                    <p></p>
-                    <div class="clan-info-container">
-                        <h3 class="clan-card--title">Darglance</h3>
-                        <span class="clan-card--icon dar"></span>
-                        <p class="clan-card--description">El clan de las sombras</p>
-                        <button class="clan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="clanes-container--card">
-                    <p></p>
-                    <div class="clan-info-container">
-                        <h3 class="clan-card--title">Vrenneth</h3>
-                        <span class="clan-card--icon vre"></span>
-                        <p class="clan-card--description">El clan de los vientos</p>
-                        <button class="clan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="clanes-container--card">
-                    <p></p>
-                    <div class="clan-info-container">
-                        <h3 class="clan-card--title">Tharagon</h3>
-                        <span class="clan-card--icon tha"></span>
-                        <p class="clan-card--description">El clan de los mares</p>
-                        <button class="clan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="clanes-container--card">
-                    <p></p>
-                    <div class="clan-info-container">
-                        <h3 class="clan-card--title">Arameddan</h3>
-                        <span class="clan-card--icon ara"></span>
-                        <p class="clan-card--description">El clan del fuego</p>
-                        <button class="clan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="clanes-container--card">
-                    <p></p>
-                    <div class="clan-info-container">
-                        <h3 class="clan-card--title">Hail</h3>
-                        <span class="clan-card--icon hai"></span>
-                        <p class="clan-card--description">El clan libre</p>
-                        <button class="clan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="clanes-container--card">
-                    <p class="popular">Nuevo</p>
-                    <div class="clan-info-container">
-                        <h3 class="clan-card--title">?</h3>
-                        <span class="clan-card--icon etz"></span>
-                        <p class="clan-card--description">Proximamente</p>
-                        <button class="clan-card--ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-            </section>
+            <!-- Comienza nuevo Slider -->
+            <section class="new sectionC container" id="new">
+                <div class="new__container">
+                   <div class="swiper new-swiper">
+                       <div class="swiper-wrapper">
+                           <article class="new__card swiper-slide">
+                               <img src="./Assets/images/arameddan.png" alt="" class="new__img">
+   
+                               <div class="new__data">
+                                   <h2 class="new__title">Arameddan</h2>
+                                   <span class="new_price">El clan del fuego</span>
+                               </div>
+   
+                               <a href="https://reinoetereo.com/arameddan.html"><button class="button new__button">Escoger este</button></a>
+                           </article>
+   
+                           <article class="new__card swiper-slide">
+                               
+   
+                               <img src="./Assets/images/Tharagon.png" alt="" class="new__img">
+   
+                               <div class="new__data">
+                                   <h3 class="new__title">Tharagon</h3>
+                                   <span class="new_price">El clan de los mares</span>
+                               </div>
+   
+                               <a href="https://reinoetereo.com/tharagon.html"><button class="button new__button">Escoger este</button></a>
+                           </article>
+   
+                           <article class="new__card swiper-slide">
+                               
+   
+                               <img src="./Assets/images/Vrenneth.png" alt="" class="new__img">
+   
+                               <div class="new__data">
+                                   <h3 class="new__title">Vrenneth</h3>
+                                   <span class="new_price">El clan de los vientos</span>
+                               </div>
+   
+                               <a href="https://reinoetereo.com/vrenneth.html"><button class="button new__button">Escoger este</button></a>
+                           </article>
+   
+                           <article class="new__card swiper-slide">
+                               
+   
+                               <img src="./Assets/images/Darglance.png" alt="" class="new__img">
+   
+                               <div class="new__data">
+                                   <h3 class="new__title">Darglance</h3>
+                                   <span class="new_price">El clan de las sombras</span>
+                               </div>
+   
+                               <a href="https://reinoetereo.com/darglance.html"><button class="button new__button">Escoger este</button></a>
+                           </article>
+   
+                           <article class="new__card swiper-slide">
+                               
+   
+                               <img src="./Assets/images/Hail.png" alt="" class="new__img">
+   
+                               <div class="new__data">
+                                   <h3 class="new__title">Hail</h3>
+                                   <span class="new_price">El clan libre</span>
+                               </div>
+   
+                               <a href="https://reinoetereo.com/hail.html"><button class="button new__button">Escoger este</button></a>
+                           </article>
+   
+                           <article class="new__card swiper-slide">
+                               <span class="new__tag">New</span>
+   
+                               <img src="./Assets/images/Etzvaen.png" alt="" class="new__img">
+   
+                               <div class="new__data">
+                                   <h3 class="new__title">Etzvaen</h3>
+                                   <span class="new_price">?</span>
+                               </div>
+   
+                               <a href="https://reinoetereo.com/etzvaen.html"><button class="button new__button">Escoger este</button></a>
+                           </article>
+                       </div>
+                   </div>
+                   
+               </div>
+           </section>
+           <!-- Termina nuevo Slider -->
         </section>
-        <!-- Termina Slider -->
+        
 
-        <!-- Comienza nuevo Slider -->
-        <section class="new section container" id="new">
-            <h2 class="section_title">
-                Escoje el clan que mejor se adecúe a ti
-            </h2>
-
-            <div class="new__container">
-                <div>
-                    <div>
-                        <article class="new__card">
-                            
-
-                            <img src="./Assets/images/arameddan.png" alt="" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Arameddan</h3>
-                                <span class="new_price">El clan del fuego</span>
-                            </div>
-
-                            <button class="button new__button">Escoger este</button>
-                        </article>
-
-                        <article class="new__card">
-                            
-
-                            <img src="./Assets/images/Tharagon.png" alt="" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Tharagon</h3>
-                                <span class="new_price">El clan de los mares</span>
-                            </div>
-
-                            <button class="button new__button">Escoger este</button>
-                        </article>
-
-                        <article class="new__card">
-                            
-
-                            <img src="./Assets/images/Vrenneth.png" alt="" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Vrenneth</h3>
-                                <span class="new_price">El clan de los vientos</span>
-                            </div>
-
-                            <button class="button new__button">Escoger este</button>
-                        </article>
-
-                        <article class="new__card">
-                            
-
-                            <img src="./Assets/images/Darglance.png" alt="" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Darglance</h3>
-                                <span class="new_price">El clan de las sombras</span>
-                            </div>
-
-                            <button class="button new__button">Escoger este</button>
-                        </article>
-
-                        <article class="new__card">
-                            
-
-                            <img src="./Assets/images/Hail.png" alt="" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Hail</h3>
-                                <span class="new_price">El clan libre</span>
-                            </div>
-
-                            <button class="button new__button">Escoger este</button>
-                        </article>
-
-                        <article class="new__card">
-                            <span class="new__tag">New</span>
-
-                            <img src="./Assets/images/Etzvaen.png" alt="" class="new__img">
-
-                            <div class="new__data">
-                                <h3 class="new__title">Etzvaen</h3>
-                                <span class="new_price">?</span>
-                            </div>
-
-                            <button class="button new__button">Escoger este</button>
-                        </article>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-        <!-- Termina nuevo Slider -->
+        
     </main>
     <footer>
         <section class="left">
@@ -279,6 +219,8 @@
             <img src="./Assets/icons/d20-resize.png" alt="Reino Etéreo 2022" />
         </section>
     </footer>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
 
